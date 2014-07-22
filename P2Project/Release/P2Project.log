@@ -1,0 +1,120 @@
+﻿Build started 2014/7/22 20:26:21.
+     1>Project "E:\MyProject\P2Project\P2Project\P2Project.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt graph.cpp main.cpp interface.cpp message.cpp program.cpp trie.cpp
+         graph.cpp
+     1>graph.cpp(64): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>graph.cpp(68): warning C4244: '=' : conversion from 'std::streamoff' to 'long', possible loss of data
+     1>graph.cpp(91): warning C4244: '=' : conversion from 'std::streamoff' to 'long', possible loss of data
+     1>graph.cpp(92): warning C4244: '=' : conversion from 'std::streamoff' to 'long', possible loss of data
+         main.cpp
+         interface.cpp
+     1>interface.cpp(199): warning C4018: '<' : signed/unsigned mismatch
+     1>interface.cpp(222): warning C4018: '<' : signed/unsigned mismatch
+     1>interface.cpp(239): warning C4018: '<' : signed/unsigned mismatch
+     1>interface.cpp(260): warning C4018: '<' : signed/unsigned mismatch
+     1>interface.cpp(295): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>interface.cpp(296): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : see declaration of 'strcat'
+     1>interface.cpp(306): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : see declaration of 'strcat'
+     1>interface.cpp(326): warning C4244: '=' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>interface.cpp(375): warning C4244: '=' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>interface.cpp(405): warning C4018: '<' : signed/unsigned mismatch
+     1>interface.cpp(419): warning C4018: '<' : signed/unsigned mismatch
+     1>interface.cpp(517): warning C4018: '<' : signed/unsigned mismatch
+     1>interface.cpp(547): warning C4018: '<' : signed/unsigned mismatch
+     1>interface.cpp(621): warning C4244: '=' : conversion from 'std::streamoff' to 'long', possible loss of data
+     1>interface.cpp(635): warning C4244: '=' : conversion from 'std::streamoff' to 'long', possible loss of data
+     1>interface.cpp(677): warning C4244: '=' : conversion from 'std::streamoff' to 'long', possible loss of data
+     1>interface.cpp(694): warning C4244: '=' : conversion from 'std::streamoff' to 'long', possible loss of data
+     1>interface.cpp(964): warning C4018: '<' : signed/unsigned mismatch
+     1>interface.cpp(986): warning C4018: '<' : signed/unsigned mismatch
+     1>interface.cpp(1009): warning C4018: '<' : signed/unsigned mismatch
+     1>interface.cpp(1049): warning C4018: '<' : signed/unsigned mismatch
+     1>interface.cpp(1079): warning C4018: '<' : signed/unsigned mismatch
+     1>interface.cpp(1166): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>interface.cpp(1173): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>interface.cpp(1196): warning C4244: '=' : conversion from 'std::streamoff' to 'long', possible loss of data
+     1>interface.cpp(1210): warning C4244: '=' : conversion from 'std::streamoff' to 'long', possible loss of data
+     1>interface.cpp(1304): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>interface.cpp(1308): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>interface.cpp(1363): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>interface.cpp(1367): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>interface.cpp(1382): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>interface.cpp(1384): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>interface.cpp(1400): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>interface.cpp(1402): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>interface.cpp(1419): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>interface.cpp(1421): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>interface.cpp(1458): warning C4018: '<' : signed/unsigned mismatch
+     1>interface.cpp(1490): warning C4018: '<' : signed/unsigned mismatch
+     1>interface.cpp(1672): warning C4018: '<' : signed/unsigned mismatch
+     1>interface.cpp(1708): warning C4018: '<' : signed/unsigned mismatch
+     1>interface.cpp(1715): warning C4018: '<' : signed/unsigned mismatch
+     1>interface.cpp(1718): warning C4018: '<' : signed/unsigned mismatch
+     1>interface.cpp(1732): warning C4018: '<' : signed/unsigned mismatch
+     1>interface.cpp(1775): warning C4018: '<' : signed/unsigned mismatch
+     1>interface.cpp(1782): warning C4018: '<' : signed/unsigned mismatch
+     1>interface.cpp(1785): warning C4018: '<' : signed/unsigned mismatch
+     1>interface.cpp(1799): warning C4018: '<' : signed/unsigned mismatch
+     1>interface.cpp(1842): warning C4018: '<' : signed/unsigned mismatch
+     1>interface.cpp(1849): warning C4018: '<' : signed/unsigned mismatch
+     1>interface.cpp(1852): warning C4018: '<' : signed/unsigned mismatch
+     1>interface.cpp(1866): warning C4018: '<' : signed/unsigned mismatch
+     1>interface.cpp(1909): warning C4018: '<' : signed/unsigned mismatch
+     1>interface.cpp(1916): warning C4018: '<' : signed/unsigned mismatch
+     1>interface.cpp(1919): warning C4018: '<' : signed/unsigned mismatch
+     1>interface.cpp(1933): warning C4018: '<' : signed/unsigned mismatch
+     1>interface.cpp(2090): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>interface.cpp(2100): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>interface.cpp(2119): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>interface.cpp(2129): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+         message.cpp
+         program.cpp
+     1>program.cpp(104): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>program.cpp(109): warning C4018: '<' : signed/unsigned mismatch
+     1>program.cpp(139): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>program.cpp(143): warning C4018: '<' : signed/unsigned mismatch
+     1>program.cpp(233): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>program.cpp(241): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>program.cpp(260): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>program.cpp(267): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>program.cpp(300): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>program.cpp(301): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>program.cpp(302): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>program.cpp(303): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+         trie.cpp
+     1>trie.cpp(100): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(283) : see declaration of 'scanf'
+     1>Done Building Project "E:\MyProject\P2Project\P2Project\P2Project.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.90
